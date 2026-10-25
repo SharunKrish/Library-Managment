@@ -289,4 +289,31 @@ body {
     .navbar h1 {
         font-size: 1.25rem;
     }
+
+    .card {
+        padding: 18px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 14px 16px;
+    }
+
+    .navbar h1 {
+        font-size: 1.15rem;
+    }
+
+    .card {
+        padding: 16px 12px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-actions .btn {
+        width: 100%;
+    }
 }
